@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#16FFFFFF">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="216dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:text="Name"
+        android:textColor="#FD8A8A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/reviewImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvReview"
+        android:layout_width="220dp"
+        android:layout_height="109dp"
+        android:text="Review"
+        android:textColor="@android:color/tab_indicator_text"
+        app:layout_constraintStart_toEndOf="@+id/reviewImage"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="171dp"
+        android:layout_height="38dp"
+        android:text="location"
+        android:textColor="#0F0F10"
+        app:layout_constraintStart_toEndOf="@+id/reviewImage"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <ImageView
+        android:id="@+id/reviewImage"
+        android:layout_width="159dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="4dp"
+        android:foregroundGravity="center"
+        android:rotation="0"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mukzzang" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

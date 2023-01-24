@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">다먹짱</string>
+    <string name="api_key">AIzaSyAQUn2EedUmX4gZ9w-7L_bzPk8UgTvh-Cs</string>
+    <string name="init_lat">37.555997</string>
+    <string name="init_lng">126.924197</string>
+</resources>
